@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hippo-Jessy</title>
+  <subtitle>A clumsy bird</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hippo-jessy.com/"/>
+  <updated>2017-02-06T19:04:53.394Z</updated>
+  <id>http://hippo-jessy.com/</id>
+  
+  <author>
+    <name>Hippo-Jessy</name>
+    <email>hippo.jessy@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【深入理解Java虚拟机-0】思维导图汇总</title>
+    <link href="http://hippo-jessy.com/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/"/>
+    <id>http://hippo-jessy.com/2017/02/03/【深入理解Java虚拟机-0】思维导图汇总/</id>
+    <published>2017-02-03T22:59:05.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络（对应书中的目录），结合JVM Specification中的知识点进行总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
+<p>内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地阅读和理解《深入理解Java虚拟机》。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。</p>
+<a id="more"></a>
+<h2 id="第二部分-自动内存管理">第二部分 自动内存管理</h2>
+<p>敬请期待。。。😪</p>
+<h2 id="第三部分-虚拟机执行子系统">第三部分 虚拟机执行子系统</h2>
+<h3 id="第六章-类文件结构">第六章 类文件结构</h3>
+<p>这一章节思维导图拆分为两部分，第一部分是关于Class类文件结构的，第二部分是关于字节码指令简介的。由于第二部分知识点比较琐碎，目前还在考虑对此部分是否有制作思维导图的必要。首先献上第一部分思维导图 ( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.pdf" alt="Class File Mind Map"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.itmz" target="_blank" rel="external">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】Class%20File%20Mind%20Map.itmz</a></p>
+<h3 id="第七章-虚拟机类加载机制">第七章 虚拟机类加载机制</h3>
+<p>这一章节分为类加载机制以及类加载器两部分。</p>
+<h4 id="类加载机制">类加载机制</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.pdf" alt="Class Loading"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.itmz" target="_blank" rel="external">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading%20.itmz</a></p>
+<h4 id="类加载器">类加载器</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.pdf" alt=""></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.itmz" target="_blank" rel="external">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading_1%20.itmz</a></p>
+<h3 id="第八章-虚拟机字节码执行引擎">第八章 虚拟机字节码执行引擎</h3>
+<h2 id="第四部分-程序编译与代码优化">第四部分 程序编译与代码优化</h2>
+<p>敬请期待。。。😪</p>
+<h2 id="第五部分-高效并发">第五部分 高效并发</h2>
+<p>不好意思，仍请期待。。。😪</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络（对应书中的目录），结合JVM Specification中的知识点进行总结。思维导图通过&lt;strong&gt;iThoughtsX 4.3&lt;/strong&gt;绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。&lt;/p&gt;
+&lt;p&gt;内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地阅读和理解《深入理解Java虚拟机》。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JVM" scheme="http://hippo-jessy.com/categories/JVM/"/>
+    
+      <category term="深入理解Java虚拟机" scheme="http://hippo-jessy.com/categories/JVM/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+      <category term="JVM" scheme="http://hippo-jessy.com/tags/JVM/"/>
+    
+      <category term="MindMap" scheme="http://hippo-jessy.com/tags/MindMap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Personal Configuration for Mac and Apps</title>
+    <link href="http://hippo-jessy.com/2017/01/30/Personal-Configuration-for-Mac-and-Apps/"/>
+    <id>http://hippo-jessy.com/2017/01/30/Personal-Configuration-for-Mac-and-Apps/</id>
+    <published>2017-01-30T12:41:00.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="continue-updating">Continue Updating</h2>
+<p>Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: <a href="https://github.com/hippo-jessy/MacAndAppsConfig" target="_blank" rel="external">https://github.com/hippo-jessy/MacAndAppsConfig</a></p>
+<h2 id="current-environments">Current Environments</h2>
+<p>OS: Mac OS X EI Capitan(version 10.11.6)</p>
+<a id="more"></a>
+<h2 id="useful-apps-and-tools-for-mac">Useful Apps and Tools for Mac</h2>
+<ul>
+<li>
+<p><strong>Karabiner &amp;&amp; Seil</strong></p>
+<ul>
+<li>
+<p><strong>Karabiner:</strong></p>
+<p>This app can be used to remap keyboard and shortcut. I take use of it to remap “ctrl + K / J / H / L” to Arrow keys ( Up / Down / Left / Right ). My personal config file is right here:</p>
+<p><a href="https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml" target="_blank" rel="external">https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml</a></p>
+</li>
+<li>
+<p><strong>Seil:</strong></p>
+<p>I use this app only for its functionality to remap Caps Lock to esc. It’s pretty much helpful when editing in vim mode. Although most remapping actions can be performed by Karabiner, it can do nothing with this special key ( Karabiner is currently working to support MacOS Sierra and trying to fully integrate Seil, you can <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="external">check it here</a> ).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>iStat Menus</strong></p>
+<p>This one is basically a profiling tool which show dynamic status of CPU, memory, disks, etc. All these information is presented in the menubar and in a pleasant way as the following picture shown:</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps.png" alt=" Personal Configuration for Mac and Apps"></p>
+</li>
+</ul>
+<h2 id="keyboard-and-shortcut-remapping">Keyboard and Shortcut Remapping</h2>
+<ul>
+<li>
+<p><strong>Disable shortcut CMD + H systemwide &quot; hide window &quot; functionality and reassign it to different action in specific apps</strong>. No additional tool is needed to fulfil this remapping process and try to follow these steps:</p>
+<ol>
+<li>
+<p>Go to <em>System Preference</em> and locate <em>KeyBoard</em></p>
+</li>
+<li>
+<p>Go to <em>Keyboard Shortcuts</em> sub tab at the top</p>
+</li>
+<li>
+<p>Choose <em>App Shortcuts</em> on the list at left side</p>
+</li>
+<li>
+<p>Click on the + sign below the list to the right</p>
+</li>
+<li>
+<p>See the following screenshot, where I’ve reassigned CMD+H  to “left with selection” action in IntelliJ IDEA exclusively.</p>
+<p><em>Tips: choose “All controls” for pressing Tab could also fast your keyboard operation.</em></p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps_1.png" alt="Personal Configuration for Mac and Apps_1"></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Remap Ctrl + H / J / K / L to Arrow keys ( left / down / up/ right )</strong> considering anti human location of Arrow keys. Take good use of <strong>Karabiner</strong> to achieve this task as I mentioned before.</p>
+</li>
+<li>
+<p><strong>Remap caps lock to esc</strong> using <strong>Seil</strong> to speed up vim mode editing.</p>
+</li>
+<li>
+<p><strong>Remember to switch Mac Function Keys ( such as F1, F2 ) to standard function keys</strong> in that many apps like browsers, IDEs may take these keys as part of shortcuts.</p>
+</li>
+</ul>
+<h2 id="settings-for-intellij-idea">Settings for IntelliJ IDEA</h2>
+<p>I changed most of keymap settings of IntelliJ IDEA based on my own habits and most of these changed shortcuts are easier to remember. You can find the settings file here:  <a href="https://github.com/hippo-jessy/MacAndAppsConfig/tree/master/IntelliJ_IDEA" target="_blank" rel="external">settings exported</a></p>
+<p><strong>To Be Continued …</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;continue-updating&quot;&gt;Continue Updating&lt;/h2&gt;
+&lt;p&gt;Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: &lt;a href=&quot;https://github.com/hippo-jessy/MacAndAppsConfig&quot;&gt;https://github.com/hippo-jessy/MacAndAppsConfig&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;current-environments&quot;&gt;Current Environments&lt;/h2&gt;
+&lt;p&gt;OS: Mac OS X EI Capitan(version 10.11.6)&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Configuration" scheme="http://hippo-jessy.com/categories/Configuration/"/>
+    
+    
+      <category term="Mac" scheme="http://hippo-jessy.com/tags/Mac/"/>
+    
+      <category term="Config" scheme="http://hippo-jessy.com/tags/Config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于2016的一些思考</title>
+    <link href="http://hippo-jessy.com/2017/01/24/%E5%85%B3%E4%BA%8E2016%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"/>
+    <id>http://hippo-jessy.com/2017/01/24/关于2016的一些思考/</id>
+    <published>2017-01-24T03:06:33.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ojnnon64z.bkt.clouddn.com/%E5%85%B3%E4%BA%8E2016%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.jpeg" alt="sunrise"></p>
+<p>作为一个从不写日志，很少发朋友圈的人，我几乎没有做过什么真正意义上的总结。最近读了一些文章，经历了一些事情，豁然觉得自己想明白了一些道理。谨以此文记录2016年带给我的一些认识与思考。</p>
+<a id="more"></a>
+<h2 id="我的2016">我的2016</h2>
+<p>在刚刚过去的2016的下半年里，我近乎流干了23年来的所有眼泪，几度感到自己的世界要崩塌了。即便很不想承认，但是我确实病了。世界是灰色的，哪怕清晨的阳光也不能让我看到希望。做什么都提不起兴趣，熬夜，饮食作息不规律，后来几乎断了和所有朋友同学的联系，也大概让我的父母失望了吧。</p>
+<p>像我这么怕死又好吃的人，居然也会得抑郁症这种病，换做几年前我一定会忍不住笑出声来吧。人生从此又解锁了一项新技能。</p>
+<p>尽管2016对于我来说是痛苦的，但是，我同时也非常感谢这段经历。抑郁症的自我救赎，其实是一场深层次的自我剖析。如果不是因为它，我大概这一辈子都不会相对冷静地站在旁观者的角度和自己对话；如果不是它，我或许也可以会顽强而固执地过完这一生，但是相比以前励志的混沌，我更欣慰于现在平静的透彻。我不敢说我已经彻底摆脱了之前的思维方式，远离了抑郁。但是至少我已经可以站在一个更高的层次审视自己的思维，学会分析自己情绪的来由，尝试形成新的思维模式，不再沉浸在自己的世界里，放任悲伤逆流成河。</p>
+<h3 id="完美主义">完美主义</h3>
+<p>在很长一段时间里，我都不愿意承认自己是一个完美主义者，尽管处女座早已成为完美主义的代名词而我又在学业上以及自我规划上明显表现出了要强的一面。而作为女生在生活中不修边幅，不爱收拣，这似乎是一件在他人眼中不可原谅的事情，这也成为我一直以来用以辩解自己并非完美主义的最后一根稻草。事实上，只要稍稍花一点心思了解一下完美主义的特征，就可以知道完美主义者“对那些他们不在乎的事情，他们却显得有些冷淡和漠不关心”。</p>
+<p>好强，追求完美这些应该都是好学生，好员工的标配吧。然而凡事过犹不及。不考虑自身现状，脱离实际地追求完美的代价是什么？极高的自我要求下必然催生极低的自我评价和频繁的自我否定。说得更通俗更难听一点就是眼高手低，庸人自扰。疲于奔命的过程中不愿意正视客观事实差距，偏执地认为努力奋斗是可以解决一切困难的不二法门。这些曾经潜移默化根植我思维模式深处的想法，如今看来却是漏洞百出，毫无逻辑可言。我不禁想起了《欢乐颂》里面的邱莹莹， 不同的是，她只是喊喊“成功学”的口号而已，而我却将这些所谓“成功学”推崇的“奋斗至上，拼搏解决一切”的观念付诸于行动，并将这些观念深植于内心。讽刺的是，我当时还站在制高点的角度俯视着邱莹莹，丝毫没有意识到自己早已走进了另一个思维怪圈。事实上，奋斗努力并没有错，但是不从自身实际情况出发地认为奋斗努力可以解决一切也未免有些天真。这和“大跃进”时期的“人有多大胆，地有多大产”没有本质区别。这也再一次印证了我过去其实是一个感性大于理性的人，尽管这也是我一直以来所鄙视和不愿意承认的。</p>
+<p>然而这么简单的道理我为什么想不通呢？以至于后来一度走到思维的死胡同里无法自拔？</p>
+<p>原因很简单，承认&quot;自己能力比周围人差，并且短期内很难改变差距&quot;是一件痛苦的事情，对于一个追求完美的人来说尤甚。然而比承认更痛苦的事情，是“坦然”接受这个事实。这也是为什么当我看到自己和周围诸多同龄的优秀技术人才之间的差距时变得患得患失，惶惶不可终日。我看到了我比别人差的现状，也承认了这个事实，却没办法坦然接受，潜意识里坚信自己的能力和智力并不比别人差，现状的差距是可以通过努力和奋斗在短期内弥补的。于是我开始强迫自己努力奋斗，强迫自己在短期内跟上周围大神们的步伐，踌躇满志地认为只要足够用功，比别人多花时间，没有什么是做不到的（呵呵，这句话貌似鼓舞了一批又一批的中国学生）。后面的结果其实很清晰了，无非是又一个完美主义者典型的心理迭代过程：挫败 - 疲倦 - 自责 - 碌碌无为。反观事情的起因，这其实就是一场简单的由一个非理性目标引发的“血案”。首先“短期内赶上大神们的步伐”就是一个不脚踏实地的目标，且不是我本身起步晚，就算是对于一般科班出生的人来说，如果“大神们”这么容易就能被赶超，他们当初也就不会被拥上神坛了吧。</p>
+<p>从小接受科学教育，后来也学习理科，讲道理我应该是一个唯物主义的坚定拥趸。平时的学习工作也是和各种逻辑理论打交道，相信一切结果都有因可寻。但是换到性格和思维模式这些抽象虚无的事物上，自己却变得冲动感性，难以脚踏实地。</p>
+<p>但是单纯是完美主义，并不足以引发抑郁。毕竟人有足够的自我调节能力，当一个目标失败后，可以调整心情和目标，开始新一轮的奋斗。但是要命的是这个失败的目标是你目前为止人生的主要目标，并且你对奋斗的意义持有“非黑即白”的观念（非黑即白，这也是完美主义的一个典型特征）。哪怕是大有改观的现在，我仍会时不时陷入一种绝望的情绪当中去：我即将为之奋斗拼搏大半辈子的事业，却是一个我已经远远输在起跑线上的事业。更让我感到害怕的是，随着年龄的增长，亦或许是由于长期熬夜，作息不规律，我的记忆力和智力已经明显不如以前。当我意识到我再怎么努力也很难成为最优秀的那一批时，我感到前所未有的绝望。我开始否定奋斗的意义，开始逃避周围的环境以求内心片刻的平静（明显的鸵鸟心态），开始困惑既然注定没有办法成为心目中自己理想的那个样子，那我为什么还要努力，甚至，为什么还要活着。</p>
+<p>我承认了自己的现状和困境，却很难做到“坦然”面对。真正的坦然面对，包括两方面的表现：</p>
+<ul>
+<li>接受并原谅自己的现状，理性认识差距</li>
+<li>明白以后可能的处境并泰然接受</li>
+</ul>
+<p>我败在了最后的“泰然接受”。如何泰然接受“我再怎么努力也很难成为最优秀的那一批”？这个问题困扰了我很久，最后这个问题实则回归到了“我为什么想要成为最优秀的那一批”。是因为想在别人面前有一个好的面貌？还是大众主流价值观的导向？父母的期望？习惯性想要变得优秀？我所能列举出来的这些原因几乎都是外界于我的作用力，很难找到一个发自内心的、主观能动的理由来回答这个问题。</p>
+<p>最后似乎只有下面这个理由可以让我信服：</p>
+<p>因为成为最优秀的那一批是我快感的主要来源。</p>
+<p>这也合理解释了为什么当我意识到自己无法成为最优秀的那一批时感到无比绝望，失去了生活全部的兴趣。然而这也让我意识到了另一个可悲的事实： 超越周围人，获得他人的认同竟是我体会到快感的最大来源。一直以来能让我产生快感的事情竟然如此单一且毫无意义。我愈发清楚地认识到我是一个极度在乎并倚仗他人看法的人，我是一个深陷于主流评价标准中的人。可是我为什么会这样？</p>
+<h3 id="快感的来源">快感的来源</h3>
+<p>在大学之前，考试是我们衡量自身价值的唯一途径，于是，我要考得比别人好，可以获得别人羡慕的眼光，可以获得父母老师的夸赞，于是我感到了快感。如今，专业技能成为我衡量自身价值的主要标准，当我意识到自己比周围人差，长时间得不到他人认同感时，我也丧失了自我的认同感。</p>
+<p>大学之前（甚至包括大学），似乎没有选择的余地，大家也普遍被应试教育所导向的价值观所束缚。潜移默化中我被应试教育所推崇的基于竞争的快感反馈模式牢牢桎梏：什么能让人感到快感和被认同感？ 成绩排名靠前，分数高的学生被夸赞，获得“幸福感”从而刺激他们继续保持“优秀”。这种带有明显竞争性质的“快感反馈模式”在我十几年的求学生涯中不断反复加深直到根植于我的思维模式之中：只有比别人优秀我才能获得快感，只有被他人认同我才能获得自我认同。事实上，应试教育过于单一的评价模式、极度推崇竞争比较的畸形理念碾压式地抹杀了“幸福感”真正健康的来源 — 兴趣。</p>
+<p>兴趣都是扯淡。</p>
+<p>上学时经常听说的一句话。没有人觉得学习有趣。哪怕是那些“顶尖的学生”在总结经验时也经常是苦难论，奋斗论。应试教育推崇先苦后甜，它凭借自身的权威性和强制力绑架给我们一种基于竞争的快感反馈模式（事实上，社会中很多地方也沿袭了这种基于竞争的反馈模式，比如公司的业绩考评等等，只不过应试教育具有更大的普适性和强制性，比如说你不满公司的制度可以选择辞职另寻高就，然而作为学生不管在哪里都逃脱不了统一的应试规则）。然而我们仍然可以看到一些脱离应试教育大框架的偏才怪才，他们并不是应试教育所青睐的佼佼者，但是他们对某一领域“天赋异禀”并充满兴趣和热情，同样获得了自我认同和幸福感。他们的存在仿佛又掷地有声地告诉我们:</p>
+<p>兴趣并不是扯淡。</p>
+<p>兴趣才是获取快感最健康的途径，兴趣是做好一件事真正强大的源动力。由于习惯了基于竞争的快感反馈模式，当我发现自己很难竞争过周围人，很难获得他人认可时，我便会陷入极大的自我否定当中，郁郁寡欢，因为我获取快感的主要途径被切断了。我看不进去书，集中不了注意力写代码，惶惶不安，担心自己的努力无法获得回报，担心自己追赶的步伐太慢。但是，后来在我终于发现自己的症结所在之后，尝试着不再急于成为大神，不再急于超过别人，不再急于从他人认可中获取快感，静下心来踏踏实实写一段代码，分析一个bug，理解一个算法时，我发现自己是可以真真切切地感受到抽丝剥茧，追本溯源的快感，感受到解决一个问题的成就感和自我认同感。尽管这种快感并不如被他人称赞来得强烈而直接，但是这是一种持久而可控的快感，一种不受他人评价或外界环境干扰的稳定的快感。这也是当初我真正下定决心选择这一事业的最单纯的原因：我喜欢这种逻辑分析带来的抽丝剥茧，追本溯源的快感。 写到这里突然想起在阿里实习的时候，师兄问我为什么选择从事这一行。我当时愣住了，那段时间我正陷在自我否定惴惴不安的状态中，疲于应付各种因为比较和不切实际目标带来的挫败感失落感，早已看不见兴趣带给我的快感，忘记了选择这一行业的初衷。</p>
+<p>人需要依靠快感活着。超越别人可以体会到快感，得到他人的认同称赞可以体会到快感，这些都不可否认。但是如果将自己全部的快感来源都寄托在超越他人、将自我认同感完全寄托在他人的认同感之上未免也有些可悲。我们还是要倚仗一些由内因产生的持续稳定的快感，才能不被外部环境所左右，真正幸福地活下去。</p>
+<h2 id="思维模式的成因">思维模式的成因</h2>
+<p>很多心理学相关的书籍文章都会提到童年以及成长经历对于性格形成的重要性。以前看到类似的言论时，我内心是拒绝的。在我看来，很多小时候的玩伴甚至包括我自己在内，长大后的性格和思维模式都发生了剧变。我曾经一度固执地认为一个人的性格就是DNA中早已提前谱写的，任何外界刺激都只不过是加剧或减缓这些基因表达的次要因素罢了。换句话来说，我就是我，是不一样的烟火。</p>
+<p>但是从前文中的种种分析也可以看到，我越来越倾向于承认成长经历对一个人思维模式以及人格塑造的强大影响力。思维方式的形成和记忆的形成是分不开的。我们都知道不断重复是形成牢固记忆的关键，而我们如今的思维模式和处事方式也正是由于曾经在成长过程中被不断重复应用从而得以加深固化。比如基于竞争的快感反馈模式正是在我长达十几年的求学生涯中不断被反复应用，从而形成一种习惯，一种条件反射，直到最终成为我思维模式的一部分。而完美主义的形成似乎也可以从我的成长经历中找到蛛丝马迹。我的妈妈是一位控制欲较强的母亲，至少在我的记忆中，她对我一直有着较高的要求，她的初衷可能是希望我从小就形成较好的习惯。但是很多研究都表明，如果母亲强势而带有完美主义，女儿很大程度上也会成为一个完美主义者，儿子则会表现得没男子气。这里说的强势不是指事业上的强势，而是指性格上的强势（比如爱批判，强控制欲）。对于这个观点我不能更赞同了，不管是女儿版还是儿子版，我在现实生活中都看到了实实在在的案例。幼儿时期是人格形成的时期（人格心理学认为是2-8岁），之后青少年以及成人时期都只是加深或弱化这种人格倾向（当然也可能出现由于外部环境剧变造成性格剧变的极端情况）。这也是为什么很多人一辈子也很难摆脱原生家庭影响的原因 — 他们的性格就是在原生家庭的影响下形成的。小时候，我为了父母老师的期望而活，妈妈对我的高标准严要求也确实让我养成习惯。这种行为模式后来在我的生活中不断加深直到固化到我的性格和思想模式当中。遇到事情如果不做到最好就是失败，制定计划一定是宏伟而美好的，事实上我的能力有限，大部分情况下是没有办法做到最好或者实现完美计划的，于是形成心理落差，自责，长时间处在自我怀疑和否定当中。这也是为什么很多偏执的完美主义者时而自负时而自卑并有着忽高忽低的自我评价，活得辛苦而又自责。但是我仍然很感谢我的妈妈，因为完美主义并不是一件坏事，相反，理性的完美主义能使人更好地走向成功。只不过后来在各种内外因素的作用下我自己思想跑偏了。</p>
+<p>我以前是多么不屑于这些所谓的心理研究，甚至觉得大多数所谓的心理研究都是虚无缥缈毫无理论根据的空中楼阁，毕竟心理学不像是数学，可以严密地推理证明。但是等到我自己“病了”，愿意花时间精力进行自我剖析的时候，才发现思维模式心理特征的形成是有大量逻辑规律可循的。认识到这一点之后，我能够正视自己的心理思维模式，它不再是一件虚无缥缈的事物，而是一件因果可寻的事物。虽然前面的二十几年我放任自己被原生家庭，被成长教育环境塑造并固化思维模式，但是在以后的人生中我可以尝试着弱化自己非理性的思维方式，外部环境不是我可以控制的，但是我可以做的是主动有意识地减少外部因素对自己思维模式的不良刺激，比如多注重自我意识，弱化他人的眼光和评价，多关注事物本身的乐趣，少给自己制定不切实际的计划。</p>
+<h2 id="思维模式调整-如何自处">思维模式调整—如何自处</h2>
+<p>“你是不是这几年过得太顺，所以经受不了打击？“</p>
+<p>知乎上某位朋友鼓起勇气和他母亲谈论自己抑郁症，得到他母亲这样的回答。由于不被理解（甚至略被轻视），这位知友显得格外愤怒：这几年过得顺也是因为我的努力和抗压换来的，凭什么说是经受不了打击。</p>
+<p>一般人是很难理解抑郁症患者的那种绝望。成长环境、思维模式以及个人际遇的差异使我们很难真正做到换位思考，将心比心。就像我在文章开头写的那样，“像我这么怕死又好吃的人，居然也会得抑郁症这种病，换做几年前我一定会忍不住笑出声来吧”。实际上，没有必要期待他人来理解我们，因为我们自己都很难理解自己。同样的际遇可能对某些人的打击更大，而对另一部分人的伤害更小。每年我们都会看到因为高考失利，学业压力自杀的案例。作为旁观者，我们很轻易地下结论：心理承受能力差，经受不了打击，浪费社会资源。但是如果我们换位思考，应试教育使得高考成为学生价值衡量的唯一标准，凭借学生的生活阅历是很难跳出高考这一普适性的价值标准从而体会到除了高考人生还有其他多种发展途径，再加上可能由于个体的成长环境，家庭因素，使得高考对于他们的意义和压力远远大于其他人（比如家人对考生过高的期待，考生付出的努力异于常人等等）。如果我们不能做到真正的换位思考，那么请至少做到不要轻易评判。</p>
+<p>Don’t be so quick to judge, you never know when you might just find yourself walking in that person’s shoes.</p>
+<p>黄渤是少有的我所真正尊敬的演员，在某访谈节目问及影帝获奖感受时，他首先坦诚最后的获奖并不是自己设想的，甚至并不是自己的目标，如果不是机缘巧合也不会想到自己会当演员，“我比较认命，因为天生长得就不像拿奖的样儿”。后来之所以认定演员行业，也仅仅简单因为“第一，在工作的时候也能给你带来那种快感，你也挺满足的，而且你还挺胜任这个工作。再一个，完了以后，大家还都觉得不错。”</p>
+<p>实际上处女座的黄渤在平时工作中是一个追求完美的人，在演戏，唱歌等多方面都对自己有着较高的要求。但是从这段访谈中也看出了他豁达的心态：坦然接受自己的不足和客观差距，不对自己抱有不切实际的要求和目标，认清自己对事业最单纯的兴趣而不过分依赖他人的认可。</p>
+<p>“认命”，对于完美主义者来说这是一个多么难能可贵的心态。坦然接受不可改变的现状，不制定脱离现实的宏大的目标，努力改变可以改变的，学会享受事物本身带给自己的乐趣，对于结果不强求完美，这才是处事应有的心态。</p>
+<p>可能有些人会觉得抑郁症就是自己想太多，平时多做事，少瞎想。我承认抑郁症确实是一种庸人自扰的行为，但是世上最不缺的就是庸人。每个人的成长环境以及经历各不相同，必然造成不同的性格和思维模式。非理性的思维模式不一定都会导致抑郁症，但是确实存在某些思维模式（比如完美主义，强迫症）使人有更大概率跌入抑郁，注意这里说的是“有更大概率”并非“一定会”，很多时候还与个人际遇以及落差积累有关。说白了，就是内因与外因的共同作用。正如我文章开头提到的那样，如果不是抑郁症，我可能依旧会“励志”而混沌地过完这一生，但是我也感谢它，让我有机会能跳出来审视自己缺乏理性而略显病态的思维模式，平静而透彻地活下去。看山是山，看山不是山，看山还是山。第一种和第三种都可以正常地过完这一生，唯独第二种痛苦挣扎，甚至有可能过不完这一生。能用第一种方式生活一辈子的人无疑是幸福而又幸运的（尽管这其中某些人的思维方式并非全然理性而健康，并且有可能会受到外界因素刺激而跌入第二种方式）。然而抑郁症期间我不幸跌入到了第二种心态中久久难以自拔，但同时它也给了我一个思考的机会，让我理性面对自己的思维模式。我希望今后能有幸用第三种方式去看我生命中的风景，尽管我仍然并将一直是一个完美主义者，但是我会尝试做一个理性的完美主义者，脚踏实地，顺其自然，为所当为。</p>
+<p>非常感谢<a href="https://www.zhihu.com/people/omiga" target="_blank" rel="external">@<strong>知乎马鲜花</strong></a>在知乎上发表的关于抑郁症的回答。她的很多想法和我不谋而合，很多观点让我受益良多并帮助我真正做到豁然开朗。</p>
+<p>在情绪最难控制的那段时间里，尝试过心理咨询，大多是建议去医院，吃药。诚然，吃药是一种最便捷快速的治愈方法。但是抛开副作用不谈，我从内心是不认同吃药治疗这种方法的。借用<a href="https://www.zhihu.com/people/omiga" target="_blank" rel="external">@<strong>知乎马鲜花</strong></a>的一句话，吃药来解决性格和思维方式导致的疾病是对她来时是荒谬，治标不治本。</p>
+<p>我不能说百分之百认同这句话，但是，我相信心病还需心药治，解铃还须系铃人。通过药物等外力来治疗思维方式带来的疾病会让我从某种程度上认为我不再是我自己，相反发挥主观能动性通过提高自己的眼界和对疾病原理的认知进而改造自身的思维模式才会让我觉得是一种自我的救赎和提升。</p>
+<p>好在我并不算太严重，目前也开始有了好转的趋势。</p>
+<p>2016年过去了，希望我新的人生可以开始了。</p>
+<h2 id="为什么写在这里">为什么写在这里</h2>
+<p>如果你一字不落地看到了这里，我敬你是条汉子，这是一篇真正意义上的长文，自说自话且并没有太多有营养的内容。写这篇总结的初衷是让自己更好地认识自己，原本不想公开。但是考虑到我的个人博客不会有太多访客，外加网络的匿名，我最终还是决定公开发表在个人博客网站中。尽管整篇文章笼罩着诸多负能量，还是希望此文能引发大家的一些思考，以我为戒。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ojnnon64z.bkt.clouddn.com/%E5%85%B3%E4%BA%8E2016%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.jpeg&quot; alt=&quot;sunrise&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作为一个从不写日志，很少发朋友圈的人，我几乎没有做过什么真正意义上的总结。最近读了一些文章，经历了一些事情，豁然觉得自己想明白了一些道理。谨以此文记录2016年带给我的一些认识与思考。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="My Life" scheme="http://hippo-jessy.com/categories/My-Life/"/>
+    
+      <category term="Thinking and Summary" scheme="http://hippo-jessy.com/categories/My-Life/Thinking-and-Summary/"/>
+    
+    
+      <category term="Thinking" scheme="http://hippo-jessy.com/tags/Thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Design Pattern】Iterator 迭代器模式</title>
+    <link href="http://hippo-jessy.com/2017/01/22/%E3%80%90Design-Pattern%E3%80%91Iterator-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://hippo-jessy.com/2017/01/22/【Design-Pattern】Iterator-迭代器模式/</id>
+    <published>2017-01-22T03:32:07.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Class Diagram</h1>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png" alt="【Design Pattern】Iterator 迭代器模式"></p>
+<h1>Introduction</h1>
+<p>迭代器模式其目的是将容器的遍历与容器的内部实现解耦，从而利用一种通用统一的方式遍历内部实现各异的多种容器。迭代器模式的使用已经非常普遍，这里不再赘述。此篇博客重点在于介绍迭代器的内部实现，以及在JDK源码中迭代器模式的实际运用。</p>
+<a id="more"></a>
+<h1>Implementation</h1>
+<p>既然是要与容器内部实现解耦，很自然地想到要加一层针对容器的抽象。如何加抽象？这里采用interface的形式。根据上文中的类图，我们可以看到Aggregate接口，这个接口就保证了凡是实现了该接口的容器（不管其内部是如何实现的）都可以利用Iterator对其进行遍历。Aggregate接口声明的createIterator()方法非常关键(对应于java中的iterator()方法），它实现了Iterator与容器的关联绑定。给一个更具体的ConcreteIterator类图：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_1.png" alt="【Design Pattern】Iterator 迭代器模式_1"></p>
+<p>具体来说，ConcreteIterator的构造器有一个参数，这个参数必须是一个实现了Aggregate接口的类的对象。这样，通过createIterator()的内部实现  return new ConcreteIterator(this) 使得ConcreteIterator关联了ConcreteAggregate的对象，从而可以直接利用createItertor()返回的Iterator对象来对ConcreteAggregate进行遍历。</p>
+<h1>Examples</h1>
+<blockquote>
+<p>所有【Design Pattern】系列博文的示例代码都可以在这个repo中找到<a href="https://github.com/hippo-jessy/design_pattern" target="_blank" rel="external">https://github.com/hippo-jessy/design_pattern</a></p>
+</blockquote>
+<p>这里给出一个实现迭代器模式的一个例子(ConcreteAggregate用ArrayList作为内部结构存储)：</p>
+<ul>
+<li><strong>Aggregate Interface</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</div><div class="line">	<span class="function">Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>Iterator Interface</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</div><div class="line">	<span class="function">E <span class="title">next</span><span class="params">()</span></span>;</div><div class="line">	<span class="function"><span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>ConcreteAggregate Class</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregate</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</div><div class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</div><div class="line">	</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregate</span><span class="params">()</span></span>&#123;</div><div class="line">		internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="meta">@Override</span></div><div class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</div><div class="line">		<span class="keyword">return</span> <span class="keyword">new</span> ConcreteIterator&lt;E&gt;(<span class="keyword">this</span>);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span></span>&#123;</div><div class="line">		<span class="keyword">return</span> internalData.get(index);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span></span>&#123;</div><div class="line">		internalData.add(element);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span></span>&#123;</div><div class="line">		<span class="keyword">return</span> internalData.size();</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>ConcreteIterator Class</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteIterator</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</div><div class="line"></div><div class="line">	<span class="keyword">private</span> ConcreteAggregate&lt;E&gt; aggregate;</div><div class="line">	<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteIterator</span><span class="params">(ConcreteAggregate&lt;E&gt; aggregate)</span> </span>&#123;</div><div class="line">		<span class="keyword">this</span>.aggregate = aggregate;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="meta">@Override</span></div><div class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</div><div class="line">		<span class="keyword">return</span> aggregate.get(cursor++);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="meta">@Override</span></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</div><div class="line">		<span class="keyword">return</span> (cursor &lt; aggregate.size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>Client 端代码</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Client</span> </span>&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</div><div class="line">		ConcreteAggregate&lt;String&gt; aggregate = <span class="keyword">new</span> ConcreteAggregate&lt;String&gt;();</div><div class="line">		aggregate.add(<span class="string">"This"</span>);</div><div class="line">		aggregate.add(<span class="string">"is"</span>);</div><div class="line">		aggregate.add(<span class="string">"a"</span>);</div><div class="line">		aggregate.add(<span class="string">"bright"</span>);</div><div class="line">		aggregate.add(<span class="string">"day"</span>);</div><div class="line">		Iterator&lt;String&gt; iter = aggregate.createIterator();</div><div class="line">		<span class="keyword">while</span>(iter.hasNext())&#123;</div><div class="line">			System.out.print(iter.next()+<span class="string">"/"</span>);</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>运行输出结果为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">This/is/a/bright/day/</div></pre></td></tr></table></figure>
+<br>
+<h1>Extension</h1>
+<p>参照上面的类图和例子，又产生了如下疑问：</p>
+<p>这里产生了一个新的问题，如果ConcreteIterator必须设一个ConcreteAggregate类型的属性，那岂不是每定义一种ConcreteAggregate都得重新定义一个与之对应的ConcreteIterator类？<strong>从某种程度上来说</strong>，java中确实是这样做的。</p>
+<p>为什么说是“从某种程度上“ ？原因主要有两点：</p>
+<ol>
+<li>
+<p>以Collection框架为例，从最初的Iterable接口, Collection接口到最后的ArrayList, LinkedList, HashSet, PriorityQueue等最终实现，中间添加了多重抽象层，比如AbstractCollection, AbstractList等等。因此在JDK中ConcreteAggregate的这个概念变得模糊了。以ArrayList和LinkedList为例，实际上充当ConcreteAggregate的是它们的父类AbstractList。也就是说只需要定义与AbstractList对应的ConcreteIterator类即可，而不必要给ArrayList，LinkedList都创建对应的ConcreteIterator。</p>
+</li>
+<li>
+<p>严格地来说，java是在ConcreteAggregate类中定义一个与之对应的ConcreteIterator<strong>内部类</strong>。这样做其实是一种很明智的做法，从上面的两张类图以及Example中的示例代码我们可以清楚的看到Client端（也就是JDK使用者）通常只会和Aggregate接口，ConcreteAggregate类以及Iterator接口打交道（Client端遍历容器只需要使用Iterator接口暴露的方法即可，没有任何调用ConcreteIterator的需求）。ConcreteIterable类除了在ConcreteAggregate类的createIterator方法中被实例化以外，不会在其他地方实例化。而且这种关联关系存在的意义是为了让ConcreteIterable使用ConcreteAggregate内部的某些方法以便实现Iterator接口定义的next()等方法。很明显在将ConcreteIterable作为ConcreteAggregate的内部类来定义非常合适。甚至可以直接在createIterator方法中定义匿名内部类实现Iterable接口。</p>
+<blockquote>
+<p>适合使用匿名类情形：该类只会在定义的地方被实例化；</p>
+<p>适合使用内部类的特征： 该类需要使用外部类的某些属性方法而该类又不会在外部类以外的地方被调用或实例化。</p>
+</blockquote>
+</li>
+</ol>
+<p>于是根据第二点的启发，上面Example部分的实例代码可以进行改写（Iterator接口用匿名内部类实现，无需专门单独定义ConcreteIterator类）：</p>
+<ul>
+<li><strong>改进版ConcreteAggregate</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregateOptim</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</div><div class="line"></div><div class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregateOptim</span><span class="params">()</span> </span>&#123;</div><div class="line">		<span class="keyword">this</span>.internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="meta">@Override</span></div><div class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</div><div class="line">      <span class="comment">//使用匿名内部类实现Iterator接口</span></div><div class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Iterator&lt;E&gt;() &#123;</div><div class="line">			<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</div><div class="line"></div><div class="line">			<span class="meta">@Override</span></div><div class="line">			<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</div><div class="line">				<span class="keyword">return</span> get(cursor++);</div><div class="line">			&#125;</div><div class="line"></div><div class="line">			<span class="meta">@Override</span></div><div class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</div><div class="line">				<span class="keyword">return</span> (cursor &lt; size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</div><div class="line">			&#125;</div><div class="line"></div><div class="line">		&#125;;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</div><div class="line">		<span class="keyword">return</span> internalData.get(index);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span> </span>&#123;</div><div class="line">		internalData.add(element);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span> </span>&#123;</div><div class="line">		<span class="keyword">return</span> internalData.size();</div><div class="line">	&#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>JDK源码中对迭代器模式的实现和上面这段改进代码比较类似，只不过它更倾向于采用内部类而非匿名内部类。JDK中迭代器模式的简化版类图（中间省略了几层继承关系）如下：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_2.png" alt="【Design Pattern】Iterator 迭代器模式_2"></p>
+<p>这里JDK库中<strong>Iterable接口相当于上文第一张类图中的Aggregate接口</strong>，Iterable接口中声明的方法Iterator()对应于createIterator()方法，<strong>Java 中的Iterator接口直接对应与之前的Iterator接口</strong>，AbstractList类对应于ConcreteAggregate类，而AbstractList类中的内部类Itr实现了Iterator接口，相当于ConcreteIterator。ArrayList和LinkedList均为AbstractList的子类，可以直接使用父类的iterator()方法得到由内部类Itr向上转型后的Iterator接口引用，通过Iterator接口暴露的hasNext, next等方法最终实现遍历。Client端代码一般只会和Iterator接口以及ArrayList，LinkedList等类发生关联（有时也会使用上面类图中省略了的List接口，Collection接口等，但是不会有使用内部类Iter的需求）。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">ArrayList&lt;String&gt; sampleList = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">Collections.addAll(sampleList,<span class="string">"a"</span>,<span class="string">"b"</span>,<span class="string">"c"</span>,<span class="string">"d"</span>);</div><div class="line"><span class="comment">//sampleList.iterator()调用的是ArrayList的父类AbstractList中实现Iterable接口的方法</span></div><div class="line">Iterator&lt;String&gt; iter = sampleList.iterator();</div><div class="line"><span class="keyword">while</span>(iter.hasNext())&#123;</div><div class="line">  System.out.println(iter.next());</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//凡是实现了Iterable接口的类都可以用foreach形式来遍历其内部元素，原理是foreach会</span></div><div class="line"><span class="comment">//默认调用该类的iterator()方法获得其Iterator然后进行遍历</span></div><div class="line"></div><div class="line"><span class="keyword">for</span>(String item: sampleList)&#123;</div><div class="line">  System.out.println(item);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+   <br>
+<h1>References</h1>
+<p>Design Pattern(GOF)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;Class Diagram&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png&quot; alt=&quot;【Design Pattern】Iterator 迭代器模式&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;迭代器模式其目的是将容器的遍历与容器的内部实现解耦，从而利用一种通用统一的方式遍历内部实现各异的多种容器。迭代器模式的使用已经非常普遍，这里不再赘述。此篇博客重点在于介绍迭代器的内部实现，以及在JDK源码中迭代器模式的实际运用。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Design Pattern" scheme="http://hippo-jessy.com/categories/Design-Pattern/"/>
+    
+    
+      <category term="Java" scheme="http://hippo-jessy.com/tags/Java/"/>
+    
+      <category term="Design Pattern" scheme="http://hippo-jessy.com/tags/Design-Pattern/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java You Don&#39;t Know - Item 2】All Interfaces Have toString() Method</title>
+    <link href="http://hippo-jessy.com/2017/01/22/%E3%80%90Java-You-Don-t-Know-Item-2%E3%80%91All-Interfaces-Have-toString-Method/"/>
+    <id>http://hippo-jessy.com/2017/01/22/【Java-You-Don-t-Know-Item-2】All-Interfaces-Have-toString-Method/</id>
+    <published>2017-01-22T00:30:29.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>最近总结<strong>Thinking in Java 读书笔记</strong>时，涉及到下面这段简单代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Collection&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">Collections.addAll(list, <span class="string">"tomorrow"</span>,<span class="string">"hi"</span>,<span class="string">"yes"</span>);</div><div class="line"><span class="comment">//内部调用list.toString方法</span></div><div class="line">System.out.print(list);</div></pre></td></tr></table></figure>
+<p>上面这段代码的运行结果如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[tomorrow, hi, yes]</div></pre></td></tr></table></figure>
+<p>进而引出了两个问题：</p>
+<ul>
+<li>
+<p>Collection是一个接口，其内部并没有toString方法，为什么声明为Collection类型的list对象可以调用toString方法？</p>
+</li>
+<li>
+<p>list对象的toString方法明显被重写过了，重写toString方法是在哪里实现的？</p>
+</li>
+</ul>
+<a id="more"></a>
+<h2 id="solution">Solution</h2>
+<p>首先解决第二个问题：</p>
+<p>​       ArrayList的继承关系是 ArrayList -&gt; AbstractList -&gt; AbstractCollection。而AbstractCollection中重写了toString方法，具体实现如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</div><div class="line">       Iterator&lt;E&gt; it = iterator();</div><div class="line">       <span class="keyword">if</span> (! it.hasNext())</div><div class="line">           <span class="keyword">return</span> <span class="string">"[]"</span>;</div><div class="line"></div><div class="line">       StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div><div class="line">       sb.append(<span class="string">'['</span>);</div><div class="line">       <span class="keyword">for</span> (;;) &#123;</div><div class="line">           E e = it.next();</div><div class="line">           sb.append(e == <span class="keyword">this</span> ? <span class="string">"(this Collection)"</span> : e);</div><div class="line">           <span class="keyword">if</span> (! it.hasNext())</div><div class="line">               <span class="keyword">return</span> sb.append(<span class="string">']'</span>).toString();</div><div class="line">           sb.append(<span class="string">','</span>).append(<span class="string">' '</span>);</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>然而这个解答并不能解决全部问题，就算是ArrayList中的toString方法已经通过继承父类得到重写，ArrayList创建出的对象被向上转型赋值给了Collection类型的list引用，于是又绕回到第一个问题了，Collection接口源码中没有toString方法，为何list对象可以调用toString方法？</p>
+<p>下面这张图通过Eclipse的自动补全工具给我们提供了一点线索：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/All%20Interfaces%20Have%20toString%28%29%20Method.png" alt="All%20Interfaces%20Have%20toString%28%29%20Method"></p>
+<p>可以看出，其实list调用的是Object中的toString方法。实际上Collection中有toString方法，只不过是隐式添加的。一个没有任何父接口的接口，如果没有显式声明toString等Object类中的public实例方法，则会被隐式添加这些方法对应的抽象方法。</p>
+<p>简而言之，所有接口都会有对应于Object类中public实例方法的抽象方法。也就是说所有接口都会有toString,  hashCode, wait, notify, getClass, equals等方法。Java Language Specification 中的原话如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">If an interface has no direct superinterfaces, then the interface implicitly declares a</div><div class="line">public abstract member method m with signature s, return type r, and throws clause t</div><div class="line">corresponding to each public instance method m with signature s, return type r, and</div><div class="line">throws clause t declared in Object, unless a method with the same signature, same return</div><div class="line">type, and a compatible throws clause is explicitly declared by the interface.</div></pre></td></tr></table></figure>
+<p>总结一下整个过程，Collection中没有显式声明toString方法，因此会隐式添加对应于Object类中toString的同名抽象方法，<code>System.out.println(list)</code> list调用Collection接口中的toString方法，list实际类型为ArrayList, 由于动态绑定（此处涉及多态），调用的是ArrayList实例对象中的toString方法，ArrayList中并没有重写toString方法，又因为ArrayList的超父类AbstractCollection重写了toString方法，因此最后调用的是AbstractCollection 中的toString方法。从而实现了打印Collection所有元素的最终效果。</p>
+<p>由此进行一下拓展，如果接口中显式声明了toString等方法又会怎样呢？此时，实现该接口的类不会被强制要求实现toString方法，原因很简单，所有的类都已经通过继承Object类实现了toString方法。因此，在平时coding的时候，如果想在接口中定义有效的强制被实现的抽象方法，最好避免与Object类中public实例方法重名。</p>
+<h2 id="reference">Reference</h2>
+<p><a href="http://stackoverflow.com/questions/12124163/do-interfaces-have-tostring-method" target="_blank" rel="external">http://stackoverflow.com/questions/12124163/do-interfaces-have-tostring-method</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;最近总结&lt;strong&gt;Thinking in Java 读书笔记&lt;/strong&gt;时，涉及到下面这段简单代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Collection&amp;lt;String&amp;gt; list = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; ArrayList&amp;lt;String&amp;gt;();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Collections.addAll(list, &lt;span class=&quot;string&quot;&gt;&quot;tomorrow&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;hi&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;yes&quot;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//内部调用list.toString方法&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;System.out.print(list);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;上面这段代码的运行结果如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;[tomorrow, hi, yes]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;进而引出了两个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Collection是一个接口，其内部并没有toString方法，为什么声明为Collection类型的list对象可以调用toString方法？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;list对象的toString方法明显被重写过了，重写toString方法是在哪里实现的？&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="http://hippo-jessy.com/categories/Java/"/>
+    
+      <category term="Java You Don&#39;t Know" scheme="http://hippo-jessy.com/categories/Java/Java-You-Don-t-Know/"/>
+    
+    
+      <category term="Java" scheme="http://hippo-jessy.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java You Don&#39;t Know - Item 1】为什么long类型的变量在赋值时数值常量要加“L”</title>
+    <link href="http://hippo-jessy.com/2017/01/21/%E3%80%90Java-You-Don-t-Know-Item-1%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/"/>
+    <id>http://hippo-jessy.com/2017/01/21/【Java-You-Don-t-Know-Item-1】为什么long类型的变量在赋值时数值常量要加“L”/</id>
+    <published>2017-01-21T23:30:13.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<p>下面这段代码大家应该多很熟悉，也都知道Java赋值long类型变量时，一定要在常量后面加上“L”或“l”。这篇笔记就简单展开讨论其原因。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">long</span> a = <span class="number">500</span>;	<span class="comment">//赋值500，编译通过</span></div><div class="line"><span class="keyword">long</span> b = <span class="number">5000000000</span>;	<span class="comment">//赋值50亿，编译报错</span></div><div class="line"><span class="keyword">long</span> c = <span class="number">5000000000L</span>;	<span class="comment">//赋值50亿，编译通过</span></div></pre></td></tr></table></figure>
+<p>​	这里其实涉及到一个细节，Java默认的整数常量类型为int。因此我们赋值变量时，不管变量是什么类型，赋值等号右边的数字默认先使用int保存，然后赋值时再根据变量类型进行自动类型转换。比如 <code>byte a = 5</code> 实际上是将int类型的‘5’，通过自动类型转换为byte类型的变量a。由于long类型的变量可能保存远远大于int表示范围的数值，因此可能出现大于int表示范围的数值常量默认保存在int中的情况。具体参照上述code block中的第二行，该赋值语句执行的过程是：</p>
+<a id="more"></a>
+<p>​	1. 现将50亿数值保存为默认的整数常量类型int；</p>
+<p>​	2. 将该int类型的数值通过自动转型赋值给long类型的变量b;</p>
+<p>​	实际上在执行第一步时就已经出错了，int的表示范围大概在正负21亿左右，50亿远远出超出该范围。具体报错信息如下：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error1"></p>
+<p>​	这种报错和赋值号左边是否是long类型无关，只与数值常量大小是否超出int表示范围有关。比如 <code>byte a = 5000000000</code> 同样会报出 “integer number too large” 的错误。如果想要保存类似50亿这样的大数值，解决方法便是在数值常量后加上“L”, 这样使得Java不再默认使用int类型保存数字而是改为直接用long类型来保存。如此一来，对于 <code>long c = 5000000000L</code> 这样的赋值语句当然就不会再报错，但是如果是 <code>byte a = 5000000000L</code> 呢？这样在赋值语句执行的两个步骤中，虽然第一步数值常量默认保存为long类型不会报错了，但是第二步将long类型自动转型给byte类型却会出现精度丢失（50亿远大于byte的表示范围），因此会报出第二种错误：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error2"></p>
+<p>​	很明显这是一个类型转换的错误，我们知道类型转换分为自动类型转换和强制类型转换，自动类型转换只能是由容量小的类型向容量大的类型转换（向上转型，这里说的<strong>容量是指表数范围而不是指字节数目</strong>，比如8字节的long可以自动转型为4字节的float），否则则需要强制类型转换。此时由long向byte显然无法进行自动类型转换，因此报出incompatible types的错误。这里又引出了第二个问题，为什么 <code>byte a = 5</code>  这样的赋值语句不会报出类型转换的错误呢？常量数值5也是默认保存为int类型，此时int转byte是向下转型，按道理是应该强制类型转换的。这里其实涉及到自动类型转换的一个特例：**整型常量以默认类型int直接赋值给byte, short, char等类型变量时，只要该整型常量不超过对应变量类型的表数范围时，是可以进行自动类型转换的。**更深一层的原因可能是由于JVM内部实际上是将char, byte, short扩展成int处理的，这里暂时不做深究。</p>
+<p>​	需要强调的是，必须得是<strong>整型常量</strong>而且必须是<strong>直接赋值</strong>才能进行上述的特例转换。举个反例加深印象：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</div><div class="line"><span class="keyword">byte</span> b = a;</div></pre></td></tr></table></figure>
+<p>​	此时会报出incompatible types的错误，简单来说，可以这样理解：编译器在编译时首先如果发现右边为int类型<strong>并且为常量</strong>，则会判断该常量是否在被赋值变量类型表数范围内，如果在则自动转型，不在，则报错要求强制转型。如果发现右边为变量，如果满足向上转型的标准则可自动转型，否则报错要求强制转型。下面还有一个类似的小例子：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">byte</span> a = <span class="number">1</span>, b = <span class="number">2</span>, c, d;</div><div class="line">c = <span class="number">1</span> + <span class="number">2</span>;	<span class="comment">//编译通过</span></div><div class="line">d = a + b;	<span class="comment">//报错，incompatible types</span></div></pre></td></tr></table></figure>
+<p>​	当算数运算操作对象是byte, short, char时，Java会将操作数提升为int类型来处理，因此第三行右边为int类型，然而编译器在编译过程中无法得知两个变量的相加结果，因此无法进一步判断是否在byte的范围内，因此无法自动转型；相反第二行代码是两个常量int相加，编译阶段就可以得到结果为3，在byte的范围内，自动转型。</p>
+<h4 id="references">References</h4>
+<p>[1] [<a href="http://tieba.baidu.com/p/2620126491?pn=2" target="_blank" rel="external">http://tieba.baidu.com/p/2620126491?pn=2</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下面这段代码大家应该多很熟悉，也都知道Java赋值long类型变量时，一定要在常量后面加上“L”或“l”。这篇笔记就简单展开讨论其原因。&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;long&lt;/span&gt; a = &lt;span class=&quot;number&quot;&gt;500&lt;/span&gt;;	&lt;span class=&quot;comment&quot;&gt;//赋值500，编译通过&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;long&lt;/span&gt; b = &lt;span class=&quot;number&quot;&gt;5000000000&lt;/span&gt;;	&lt;span class=&quot;comment&quot;&gt;//赋值50亿，编译报错&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;long&lt;/span&gt; c = &lt;span class=&quot;number&quot;&gt;5000000000L&lt;/span&gt;;	&lt;span class=&quot;comment&quot;&gt;//赋值50亿，编译通过&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;​	这里其实涉及到一个细节，Java默认的整数常量类型为int。因此我们赋值变量时，不管变量是什么类型，赋值等号右边的数字默认先使用int保存，然后赋值时再根据变量类型进行自动类型转换。比如 &lt;code&gt;byte a = 5&lt;/code&gt; 实际上是将int类型的‘5’，通过自动类型转换为byte类型的变量a。由于long类型的变量可能保存远远大于int表示范围的数值，因此可能出现大于int表示范围的数值常量默认保存在int中的情况。具体参照上述code block中的第二行，该赋值语句执行的过程是：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="http://hippo-jessy.com/categories/Java/"/>
+    
+      <category term="Java You Don&#39;t Know" scheme="http://hippo-jessy.com/categories/Java/Java-You-Don-t-Know/"/>
+    
+    
+      <category term="Java" scheme="http://hippo-jessy.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Charset and Encoding</title>
+    <link href="http://hippo-jessy.com/2017/01/17/Charset-and-Encoding/"/>
+    <id>http://hippo-jessy.com/2017/01/17/Charset-and-Encoding/</id>
+    <published>2017-01-17T19:41:33.000Z</published>
+    <updated>2017-02-06T19:04:53.394Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>TL ; DR</strong></p>
+<p>最近重新整理一遍 <strong>Java</strong> 基础，在写到注释相关的内容时发现自己对各种字符编码问题一直似懂非懂。相信很多人都听说过ASCII, Unicode, GB2312, UTF-8之类的编码，但是对于它们的印象可能仅仅停留在知道它们是不同的字符编码，使用不当可能会导致乱码的层面上。</p>
+<p>​	查了很多资料，脑子有点乱，下面这篇笔记主要用来梳理思路。文章可能涉及到ASCII, ISO8859, GB2312, GBK, Unicode, UTF-8, UTF-16等多个字符集和编码方式进行探讨，篇幅有限，泛泛而谈，希望对有相同困惑的朋友有所帮助~~</p>
+<a id="more"></a>
+<h2 id="charset-and-encoding">Charset and Encoding</h2>
+<p>强调，这一部分<strong>非常重要</strong>，很多人在弄清楚Unicode, GB2312等多种编码原理之后可能都不一定弄清楚了字符集和字符编码的区别。在具体讲解各种编码规则之前，先来明确一下字符集(Charset)和字符编码(Encoding)的区别。</p>
+<ul>
+<li>
+<p>Charset (Character set) 字符集： 见名知义，字符集就是字符的集合。比如ASCII字符集收录了英文字符和标点以及控制字符，GB2312字符集收录了常用的汉字字符、标点等。</p>
+</li>
+<li>
+<p>Encoding (Charset Encoding) 字符编码：实现字符与字节（二进制）映射的编码规则。可以通俗的看做是实现语言字符与计算机机器码相互翻译的规则，比如UTF-8编码方式等。</p>
+<p>​为什么经常容易混淆Charset与Encoding？主要由于很多Charset只对应一种Encoding的方式，并且有相同的名字，比如ASCII字符集只对应ASCII编码规则，GB2312字符集只能由GB2312编码规则来进行翻译。然而下面这个例子很好地诠释了Charset与Encoding的区别。</p>
+</li>
+</ul>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding.png" alt="Charset and Encoding"></p>
+<p>Unicode字符集对应了多种Encoding方式（UTF-8等），而GB2312字符集只有GB2312一种编码方式。因此实际上我们经常看到的 <code>charset = &quot;uft-8&quot;</code> 是不准确的说法，UTF-8实际上只是一种编码方式而不是一个字符集，它所对应的字符集是Unicode字符集。额外提一句，在windows平台上(比如记事本)有时候会出现Unicode编码这种不规范的说法，其实它指的的UTF-16编码。</p>
+<h2 id="从历史说起">从历史说起</h2>
+<p>首先上图，这张图按照历史发展顺序对多种字符编码集进行了梳理。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_1.png" alt="Charset and Encoding_1"></p>
+<p>简单的来说，最开始为了能实现二进制与人类语言字符的映射转换，人们想出了ASCII码来实现英文字符的转换。后来西欧各国也需要表示自己的语言，于是对ASCII进行扩展产生ISO8859。再然后我天朝崛起，博大精深的中文通过GB2312等字符集进入计算机，当然世界上还有各种语言，于是各种字符集编码层出不穷。。。为了促进世界的和谐，Unicode出现了希望能够包罗万象，以一种字符编码集收录所有的语言。再后来随着网络世界的崛起，为了提高网络传输效率，UTF-8等编码方式出现以期望提高Unicode的编码效率。</p>
+<p>下面将大致根据上图的脉络，依次对各个字符编码展开讲解。</p>
+<h2 id="ascii">ASCII</h2>
+<p>​	计算机使用二进制保存指令和数据，字节作为计算接处理数据的基本单位，有256(2<sup>8</sup>)种可能状态。这些状态被人们利用来标记指令和文字。最初前32(0x20)种状态被用来表示终端、打印机等设备的某些特殊动作，比如终端遇到字节0x10则换行，类似的还有回车(CR 0x0D)，震铃(BELL 0x07)等。这前32种状态又被称为控制码。除了这些特殊用途的状态外，还有256-32=224种状态没有被利用，资源浪费怎么能忍，何况除了控制指令外，咱们的文字还没有被表示。于是这些多出来的状态被用来表示文字(English Character)和符号标点等，如此这般，计算机就可以显示和记录文字了，这便是<strong>ASCII</strong>(American Standard Code for Information Interchange)最初的由来。下面附张ASCII的图加深印象。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_2.png" alt="Charset and Encoding_2"></p>
+<p>从图片中可以看到，所有英文字符和标点等可显示字符即使加上32种控制字符，也只需要128种状态(7 bits)就可以表示完，因此ASCII码实际上每个字节的第一位都是0。</p>
+<h2 id="iso8859">ISO8859</h2>
+<p>​	然而，世界上不止只有英文这一种语言，西欧各个国家蠢蠢欲动。由于西欧的多种语言和英语有着共同的起源，都是拉丁语系，因此除了ASCII码原有的128个字符，借助一个字节剩下的256-128=128种状态也足以表示他们的语言字符不同的地方（比如130即0x82在法语编码中代表了é）。由此，引出了<strong>ISO8859</strong>这种编码方式。ISO8859实际上是对ASCII的8位扩展（ASCII实际上只用到了一个字节的低7位），是由<strong>ISO</strong>(the International Organization for Standardization )提出的。</p>
+<h2 id="gb2312">GB2312</h2>
+<p>​	终于等到我大天朝了，区区256种状态怎够表示我朝上下五千年的灿烂文明！！！仅仅常用的汉字就多达6000多个，更别提那些生僻字和繁体字了。勤劳智慧的中国人民需要更多位来表示汉字，于是<strong>GB2312</strong>应运而生。GB2312采用两个字节来表示一个中文字符（即一个汉字），仍然使用一个字节表示英文字符标点等（保留ASCII的方式），一共收录了6763个常用汉字，其他一些特殊符号，以及ASCII表示的字符。这样一来每个字符对应的二进制位数可变（8位或16位），计算机要如何识别一个字节对应一个字符还是两个字节对应一个字符呢？</p>
+<p>​	我们知道ASCII实际只用到了字节的低七位，因此字节的第一位始终为0。GB2312使用第一位为1的两个连续字节表示汉字，使用第一位为0的单个字节表示原来ASCII编码的字符（由此实现了对ASCII的兼容）。这样，当计算机读到首位为1的字节时便可知需要将连续两个字节显示成一个字符，读到首位为0的字节时便直接将该字节翻译成一个字符。下面详述汉字表示的部分。</p>
+<p>​	GB2312使用首位为1的两个字节来表示一个汉字字符(一个汉字或者一个中文标点等)，第一个字节称为高位字节，范围是0xA1-0xF7（87种状态），用来表示区码，分别对应区号01-87；第二个字节为低位字节，范围是0xA1-0xFE（94种状态），用来表示位码，分别对应位号01-94。这种表示方式也被称为“区位码”，其实说白了就是类似于坐标定位的原理，你可以想象这些汉字字符都被放在了一个二维平面上，区位码类似于横纵坐标，依此实现编码与汉字字符的一一对应。</p>
+<p>​	对于区码对应的字符有如下特征：</p>
+<ul>
+<li>
+<p>01-09区为特殊符号</p>
+</li>
+<li>
+<p>10-15区没有编码</p>
+</li>
+<li>
+<p>16-55区为一级汉字，按拼音排序，共3755个</p>
+</li>
+<li>
+<p>56-87区为二级汉字，按部首／笔画排序，共3008个</p>
+</li>
+<li>
+<p>88-94区没有编码</p>
+<p>由于编码表过大(<a href="http://tools.jb51.net/table/gb2312" target="_blank" rel="external">地址一</a> <a href="http://www.knowsky.com/resource/gb2312tbl.htm" target="_blank" rel="external">地址二</a>)，这里只截取第17区部分示例讲解。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_3.png" alt="Charset and Encoding_3"></p>
+</li>
+</ul>
+<p>第17区对应于区码0xA1+17=0xB1，因此如上图所示该区所有汉字字符的高位字节均为0xB1。而且也可以看到，随着位码的增长，其对应的汉字字符也是按拼音顺序排序的。另外提一句，由于两个字节可以表示的状态很多而实际上GB2312只收录了六千多个常用的汉字。于是仗着空间大，尽管已经收录了ASCII中的字符，GB2312又做了一套类似ASCII中的一些标点符号收录进来，也就出现了我们经常遇到的全角半角标符的区别。</p>
+<h2 id="gbk-gb18030-big5">GBK &amp; GB18030 &amp; BIG5</h2>
+<p>中国汉字总数将近十万个，GB2312也仅仅只能表示常用的汉字，但是对于生僻字以及繁体字，则需要<strong>GBK</strong>对GB2312进行进一步的扩展。还有，别忘了，五十六个民族五十六朵花。咱们少数民族同胞的各种语言瑰宝怎能蒙尘，于是你懂得，<strong>GB18030</strong>继续扩展（写到这里，突然好奇去翻了个<a href="http://www.amdotibet.cn" target="_blank" rel="external">藏文网站</a>，虽然如同天书一般，但是也莫名感觉到了一股浓郁的政府芬芳）。</p>
+<p>​	BIG5又称<strong>大五码</strong>，台湾同胞的繁体编码集。。。实在没精力一一介绍了，感兴趣的童鞋自行搜索吧&gt;_&lt;。</p>
+<h2 id="unicode">Unicode</h2>
+<p>仅仅为了解决汉字编码问题就已经陆续出现了GB2312, BIG5等多种中文派系的编码方式，世界上有多种语言，针对各种语言门派的编码方式层出不穷，且互不兼容。为了解决这种诸侯纷争的局面，<strong>ISO</strong>决定一统江湖，推出Unicode这种<strong>字符集</strong>，希望这部武林秘籍能够保罗所有语言字符。</p>
+<p>​	下面 <strong><a href="https://googleblog.blogspot.com/2012/02/unicode-over-60-percent-of-web.html" target="_blank" rel="external">这张图</a></strong> 足以说明Unicode的发展趋势和普及程度。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_4.png" alt="Charset and Encoding_4"></p>
+<p>​Unicode不仅仅是一个字符集，它还为每个字符配上了一个号码。值得注意的是，这个号码并不是字符在计算机的字节中存储的号码。可以将号码看做是对整个字符集进行了一个编号（1号字符，2号字符，etc），就好比是学生都有学号，方便管理。在Unicode中将这种编号命名为<strong>码点(code point)</strong>。这使得Unicode字符集称为一种标准，一旦公布了Unicode字符集以及对应码点，大家就可以自行设计编码方式，将字符码点按照自定义的编码规则映射为相应编码储存到字节中。这也侧面验证了前文谈到的字符集与字符编码的区别，Unicode字符集就对应了UTF-8, UTF-16等多种编码方式。Unicode的码点范围在U+0000~U+10FFFF(十六进制表示数字)，大致可以算出范围在111万左右。为了方便分类管理，这些码点又被分为多个平面（plane）来管理，我们只需要知道<strong>BMP</strong>(Basic Multilingual Plane)这个平面即可。BMP包含了U+0000~U+FFFF这个范围内的码点，世界人民常用的字符都落在这个平面内。BMP所包含的所有字符参见传送门☞<a href="http://unifoundry.com/pub/unifont-7.0.03/unifont-7.0.03.bmp" target="_blank" rel="external">BMP</a>。</p>
+<p>​	这里再多说几句，以免混淆<strong>码点</strong>和真正存储在计算机字节中的<strong>编码</strong>。我们知道编码规则的作用是将字符翻译成机器中的二进制编码。其实也就是实现字符与编码一一映射的规则。码点只是Unicode字符集额外提供的一个工具，方便编码规则来实现这种映射。试想如果编码规则实现了学号与编码的一一映射，那么其实也就实现了学生与编码的翻译过程。对于码点也是同样的，只要实现了码点与编码的映射（这个映射由编码规则实现，如UTF-8），也就实现了字符与编码的翻译。那么码点和编码的数值大小是一样的吗？这个就得由编码规则来定了。</p>
+<p>​	Unicode的最大码点0x10FFFF，至少需要三个字节来保存。如果要设计一种编码方式来保存码点，你会怎么做？最简单的做法就是直接将码点当做编码来用，用三个字节来保存一个字符编码。当然这是一种可行的方案，实际上UTF-32就是采用的类似思想，不过它是用四个字节来保存一个字符。然而这种方式有明显的缺点，对于较小的码点(比如U+0001,U+0002等)，根本不需要那么多字节来保存。而且随着网络的发展，很多文件需要通过网络传输，这种低效的编码方式使得文件大小过大，不利于网络传输。</p>
+<p>​	于是一种新的编码思想产生的——<strong>变长编码</strong>。我们之前谈到的编码方式大多采用定长编码，即使用固定的字节数目来表示每一个字符。实际上我们可以将定长与变长编码当做朗读课文时的一种断句方式。由于文件是以二进制保存的，计算机如何知道多少位表示一个字符？对于定长编码很简单，计算机只用按照固定的字节翻译成一个字符（类比朗读时两个字当做一个词来断句，“我们/大家/努力/学习/编码/知识”）；对于变长编码，有时一个字节翻译成一个字符，有时两三个字节翻译成一个字符（类比两个字或四个字当做一个词断句，“我们/大家/努力学习/编码知识”）。实际上之前提到的GB2312就是一种变长编码，它采用单字节存储ASCII字符集，采用双字节存储中文字符集部分。定长编码有其优势——规则简单且方便计算机“断句”，但是对于规模较大的字符集（比如百万级别的Unicode）,这种编码方式极容易造成空间浪费。UTF-8以及UTF-16这些变长编码规则的出现较好地解决了这个问题，它们采用较少的字节来保存数值较小的码点，使用较多字节来保存数值较大的码点。</p>
+<h2 id="utf系列-utf-8-utf-16-etc">UTF系列（UTF-8, UTF-16, etc）</h2>
+<p>UTF(Unicode Transformation Format), Unicode字符集的编码方式，主要有UTF-8，UTF-16，UTF-32等。由于UTF-32采用定长四字节编码，这里不多说，下面主要介绍UTF-8，附带介绍UTF-16。</p>
+<h3 id="utf-8">UTF-8</h3>
+<p>UTF-8是变长编码，使用1~4个字节来表示一个字符，下图大致呈现了UTF-8对Unicode码点的变长转换原理。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_5.png" alt="Charset and Encoding_5"></p>
+<ol>
+<li>
+<p>单字节表示对应Unicode码点0x0000-0x007F的字符，且此时首位为0，有效位7位，也就是说可以表示2<sup>7</sup>=128种字符，这部分其实刚好兼容了ASCII编码规则，而Unicode0x0000-0x007F的字符也就是ASCII字符。</p>
+</li>
+<li>
+<p>双字节表示对应Unicode码点0x0080-0x07FF的字符，且此时第一个字节以110开头，后面的字节以10开头，有效 位数为11位，可以表示2048种字符。其实由上图可以看到UTF-8变长编码的规律，为了让计算机知道以几个字节来断句（即翻译为一个字符），在首字节的前几位就有几个1，例如如果是双字节断句，则首字节开头以110，如果是三字节断句，则首字节以1110开头。然而单字节断句为什么用0开头而不用1或者10开头呢？其实原因前文已经涉及了，就是为了兼容ASCII编码。这里还有几个问题大家可以思考一下：当多字节表示一个字符的情况时，既然首字节已经标记了如何断句，为什么后面的字节也要指定10开头？如果首字节后面的字节不指定用10开头岂不是可以增加两个有效位，增加编码空间进而提高效率？这些问题涉及到变长编码的一种设计思想，将在后文<strong>定长编码与变长编码</strong>部分详细解答。</p>
+</li>
+<li>
+<p>三字节表示对应Unicode码点0x0800-0xFFFF的字符，有效位为16位，可以容纳65536种字符，我们常用的中文字符也都落在三字节部分。因此UTF-8是以三个字节来表示常用汉字字符的，当然实际上汉字有将近十万个，65536无法容纳如此庞大的汉字体系，因此有些冷门汉字只能用四字节表示了。我们知道Unicode将人们常用的字符都放在BMP平面（U+0000-U+FFFF），而至此，UTF-8已经用1-3个字节表示了BMP平面的全部内容。</p>
+<p>以汉字“一”为例讲解UTF-8如何对Unicode码点进行编码。汉字“一”的Unicode码点是U+4E00，在范围0x0800-0xFFFF中，因此采用1110XXX_10XXXXXX_10XXXXXX模板，有效位为16位，0x4E00换做二进制表示为0b0100_1110_0000_0000，将这十六位二进制数依次填入模板中缺失的X即可。于是我们得到汉字“一”的UTF-8编码为0b11100100_10111000_10000000，即0xE4B880。想要验证更多可以移步 ☞ <a href="http://www.endmemo.com/unicode/unicodeconverter.php" target="_blank" rel="external"><strong>传送门</strong></a></p>
+</li>
+</ol>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_6.png" alt="Charset and Encoding_6"></p>
+<p>如果看到一串的16进制码有如下的形式：<strong>E</strong>X XX XX <strong>E</strong>X XX XX…每个三字节组前面都是E打头，那么它很可能就是一串汉字的UTF-8编码了。</p>
+<h3 id="utf-16">UTF-16</h3>
+<p>UTF-16是以二字节或四字节表示一个字符的变长编码。Unicode在BMP平面的字符（U+0000~U+FFFF）用二字节来编码，其余字符用四字节来编码。对于二字节编码部分直接用码点值来编码，四字节编码部分的转换规则这里不再详述。我们只需记住常用的中英文字符在UTF-16中使用二字节表示即可。具体编码规则以后有空再加进来吧。</p>
+<p>简单总结下：</p>
+<p>UTF-8中，英文字符是一个字节表示，常用中文字符使用三个字节表示，某些中文字符可能采用四字节表示。</p>
+<p>UTF-16中，英文字符是二字节表示，常用中文字符使用二字节表示，某些中文字符可能采用四字节表示。</p>
+<p>大致了解了UTF系列的编码规则之后，可能还会有一个疑问：UTF-8，UTF-16，UTF-32这些名字中数字的由来。其实8，16，32指的是UTF用来表示一个字符最少需要用的位数，这个位数又被称为是<strong>代码单元(Code Unit)</strong>。UTF-8使用1~4个字节来表示字符，最少需要用8位来表示一个字符，代码单元为一个字节；UTF-16使用2或者4个字节来表示字符，最少需要16位来表示一个字符，代码单元为两个字节；UTF-32使用4个字节来表示字符，由于是定长编码，一定需要32位来表示一个字符，代码单元为四个字节。</p>
+<h3 id="bom">BOM</h3>
+<p>讲到BOM之前，需要大端Big Endian和小端Little Endian的相关知识, 这里只是简单提一下大小端的问题，具体细节请先自行google。</p>
+<p>只有涉及到多于一个字节的数据结构保存和传输时才会产生大小端的问题。Big EndIan普遍用于网络传输，又被称为Network Byte Order；Little Endian通常用于微处理器，部分受到Intel处理器设计的影响。二者的区别简单来说就是，Big EndIan优先保存高位字节，最终表现为低址存储高位字节，高址存储低位字节； Little Endian优先保存低位字节， 最终表现为低址存储低位字节，高址存储高位字节。如下图所示（图片来自Wikipedia）：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_7.png" alt="Charset and Encoding_7"></p>
+<blockquote>
+<p>需要注意的是，不管大端还是小端，单个字节内部的存储顺序是一致的，因为字节是计算机数据处理的最小可寻址单位是字节，因此字节内部也就不存在高址低址的概念，故而更不会有大小端的概念了。</p>
+</blockquote>
+<p>BOM, Byte Order Mark, 字节序标志。 刚才也提到过，只有对于多于一个字节的数据结构才存在字节序（Byte Order）这个概念，因此我们可以向字符编码中类推： UTF-8采用单个字节作为代码单元，因此没有并不会涉及字节序，而UTF-16使用两个字节作为一个代码单元，因此在代码单元的保存上用到了BOM（同理，UTF - 32也会用到BOM）。</p>
+<p>UTF - 16 Big EndIan BOM： FE FF</p>
+<p>UTF - 16 Little EndIan BOM： FF FE</p>
+<p>实际上UTF-8早期也是有BOM的，其值为EF BB BF，但是通过之前的分析也可以知道这个BOM是没有意义的。更多的时候它并没有起到字节序标志的作用，而是用作标志此文件是UTF - 8编码，类似于魔数（Magic Number）的作用。</p>
+<p>Java中默认使用Big EndIan，下面这段代码简单演示了“拜拜bye”字符串分别使用UTF-16大小端编码时的数据：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span> </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">        String sample = <span class="string">"拜拜bye"</span>;</div><div class="line">        <span class="keyword">try</span> &#123;</div><div class="line">          <span class="comment">//Java UTF-16默认使用大端</span></div><div class="line">            System.out.println(printHexBinary(sample.getBytes(<span class="string">"UTF-16"</span>)));</div><div class="line">            System.out.println(printHexBinary(sample.getBytes(<span class="string">"UTF-16LE"</span>)));</div><div class="line">        &#125; <span class="keyword">catch</span> (UnsupportedEncodingException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>输出的结果如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">FEFF62DC62DC006200790065</div><div class="line">DC62DC62620079006500</div></pre></td></tr></table></figure>
+<p>在这里我们不仅看到了大端时的BOM是FEFF，并且还可以回忆验证一下UTF-16的编码规则：所有英文和大部分汉字使用两个字节来表示一个字符，因此这里采用十个字节来编码sample字符串。每个代码单元两个字节，字节顺序大小端刚好颠倒。</p>
+<h2 id="定长编码与变长编码">定长编码与变长编码</h2>
+<p>前文<strong>UTF-8</strong>部分提出了的几个问题：当多字节表示一个字符的情况时，既然首字节已经标记了如何断句，为什么后面的字节也要指定10开头？如果首字节后面的字节不指定用10开头岂不是可以增加两个有效位，增加编码空间使得相同的字节长度可以表示更多的字符？</p>
+<p>​	首字节中110，1110，11110这些标记确实已经告诉计算机该如何“断句”，但是除了断句以外，计算机还需要完成我们的另一项需求：字符搜索。字符搜索实际上就是进行比特串匹配。假如UTF-8首字节后面的字节不指定用10开头很可能出现下面这种情况：</p>
+<p>​	我们想要搜索&quot;a&quot;，其UTF-8编码为0x61(0b01100001)。当我们搜索“a”时，计算机会自动搜索匹配01100001字符串，当然“a”会被搜索匹配出来，但是110XXXXX_01100001，1110XXXX_01100001_XXXXXXXX这些二三字节表示的字符也会被错误匹配为“a”。因此在变长编码设计之初就需要考虑到搜索匹配的问题，多字节模式不可以与单字节模式或者较少字节模式的比特串发生字节重叠。对于UTF-8中首字节之后的字节的开始两位“10”就是起这个作用（详见下图）。细心的童鞋可能留意到GB2312在用二字节表示中文字符时也规定两个字节的首位都必须为1，其中第二个字节首位必须为1的规定也是为了避免和ASCII编码比特串（GB2312用一字节表示英文字符的方式和ASCII兼容）重叠。</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Charset%20and%20Encoding_8.png" alt="Charset and Encoding_8"></p>
+<h2 id="乱码原因">乱码原因</h2>
+<p>编码方式不兼容会导致乱码。具体是怎么一回事呢？当你想打开一个保存有文字的文件时，首先这个文件肯定是事先经过字符输入的，那么在输入字符的过程中必须采用一种编码方式A来将字符转化为字节保存在存贮载体上。然而你通过某种渠道（网络传输，拷贝等）获得了这份文件，计算机打开这个文件时必须选择一种编码方式B来将字节翻译成字符以供阅读。如果编码方式B和编码方式A是同一种编码方式，或者编码方式B可以兼容编码方式A，我们就可以顺利地查看文件中保存的文字，否则就显示乱码。</p>
+<blockquote>
+<p>你可能碰到过这样的事，把一个文本文件从Windows平台上传到Linux平台，并在Linux平台下打开时发现乱码了，但这不意味着文件内容有了什么变化，通常的原因是你的文件是用GBK编码的，但Linux平台下打开时它缺省可能用的是UTF-8编码去读取，因此，你只要调整成正确的编码去读取即可。</p>
+</blockquote>
+<p>对于Web系统的情况，如果想要html中正常显示文字字符，就必须保证数据库编码，web应用程序编码以及html页面的编码都相同或者兼容。</p>
+<h2 id="java采用的编码集">Java采用的编码集</h2>
+<p>Java内部字符串采用Unicode字符集，本想在这篇笔记中一起介绍Java涉及的编码方式以及一些相关实验验证，但是考虑到篇幅有限，还是以后有空另开一篇博客专门介绍。</p>
+<p>磨磨唧唧，终于写完了😭😭😭，估计你们早就看累了。还是那句老话，文章如有纰误，欢迎大家在评论区批评斧正，提前谢过~~</p>
+<h2 id="references">References</h2>
+<p>[1] <a href="http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html</a></p>
+<p>[2] <a href="http://wenku.baidu.com/view/cb9fe505cc17552707220865.html" target="_blank" rel="external">http://wenku.baidu.com/view/cb9fe505cc17552707220865.html</a></p>
+<p>[3] <a href="http://blog.csdn.net/yjier/article/details/6237697" target="_blank" rel="external">http://blog.csdn.net/yjier/article/details/6237697</a></p>
+<p>[4] <a href="https://my.oschina.net/sunnyboy177/blog/399097" target="_blank" rel="external">https://my.oschina.net/sunnyboy177/blog/399097</a></p>
+<p>[5] <a href="https://my.oschina.net/goldenshaw/blog/307708" target="_blank" rel="external">https://my.oschina.net/goldenshaw/blog/307708</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;TL ; DR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近重新整理一遍 &lt;strong&gt;Java&lt;/strong&gt; 基础，在写到注释相关的内容时发现自己对各种字符编码问题一直似懂非懂。相信很多人都听说过ASCII, Unicode, GB2312, UTF-8之类的编码，但是对于它们的印象可能仅仅停留在知道它们是不同的字符编码，使用不当可能会导致乱码的层面上。&lt;/p&gt;
+&lt;p&gt;​	查了很多资料，脑子有点乱，下面这篇笔记主要用来梳理思路。文章可能涉及到ASCII, ISO8859, GB2312, GBK, Unicode, UTF-8, UTF-16等多个字符集和编码方式进行探讨，篇幅有限，泛泛而谈，希望对有相同困惑的朋友有所帮助~~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Misc" scheme="http://hippo-jessy.com/categories/Misc/"/>
+    
+    
+      <category term="Charset" scheme="http://hippo-jessy.com/tags/Charset/"/>
+    
+      <category term="Encoding" scheme="http://hippo-jessy.com/tags/Encoding/"/>
+    
+      <category term="Unicode" scheme="http://hippo-jessy.com/tags/Unicode/"/>
+    
+      <category term="UTF-8" scheme="http://hippo-jessy.com/tags/UTF-8/"/>
+    
+      <category term="UTF-16" scheme="http://hippo-jessy.com/tags/UTF-16/"/>
+    
+  </entry>
+  
+</feed>
